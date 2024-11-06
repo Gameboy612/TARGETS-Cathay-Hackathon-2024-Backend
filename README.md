@@ -1,61 +1,7 @@
-# Endpoint
+# Installation
 
-The endpoint data json request goes as follow:
+Add your mongodb_uri into `settings/mongodb_uri.txt`.
 
-## DONE:
-23/11/2023 00:44
-1. Added Private Key and Public Key.
+Run `pip install -r requirements.txt` to install.
 
-## TODO:
-1. Add 
-
-
-# Method Type: "user"
-
-```json
-{
-    "method": "user/login",
-    "data": {
-        "username": "admin",
-        "password": "password123"
-    }
-}
-```
-
-```json
-{
-    "method": "user/register",
-    "data": {
-        "username": "admin",
-        "password": "password123"
-    }
-}
-```
-
-```json
-{
-    "method": "user/change_password",
-    "data": {
-        "oldpassword": "password123",
-        "newpassword": "password1234",
-        "sessionid": ""
-    }
-}
-```
-```json
-{
-    "method": "user/logout_everywhere",
-    "data": {
-        "sessionid": ""
-    }
-}
-```
-```json
-{
-    "method": "action/main",
-    "data": {
-        "sessionid": ""
-    }
-}
-```
-
+The repository was originally written in Python 3.12.2. If the functions are not running properly, consider switching to that version instead.

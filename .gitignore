@@ -1,0 +1,6 @@
+settings/mongodb_uri.txt
+errortracker/*
+*.pyc
+*__pycache__*
+uploads/*
+*.sqlite3

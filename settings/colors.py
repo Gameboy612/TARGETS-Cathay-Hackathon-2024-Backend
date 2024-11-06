@@ -1,0 +1,5 @@
+GREEN = "#394"
+RED = "red"
+BLUE = "#2281cc"
+ORANGE = "orange"
+YELLOW = "yellow"

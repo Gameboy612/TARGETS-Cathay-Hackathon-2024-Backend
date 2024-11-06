@@ -1,0 +1,6 @@
+SEATBELT = "Seatbelt"
+TRAY_OPENED = "TrayOpened"
+SEAT_INCLINED = "SeatInclined"
+LUGGAGE_MISPLACED = "LuggageMisplaced"
+ASSISTANCE_REQUIRED = "AssistanceRequired"
+BODY_TEMPERATURE_ANOMALY = "BodyTemperatureAnomaly"
